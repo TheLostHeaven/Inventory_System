@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer, String, Float
-
 from config.database import Base
+from sqlalchemy.orm import relationship
 
 class Supplier(Base):
     
@@ -12,3 +12,5 @@ class Supplier(Base):
     address = Column(String)
     phone = Column(Integer)
     email = Column(String)
+
+    #supplies = relationship("Supplies", foreign_keys="Supplies.suplier.id", back_populates="supplier")
