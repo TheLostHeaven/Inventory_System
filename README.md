@@ -1,6 +1,7 @@
 # Proyecto de CRUD de Películas - FastAPI
 
 <img src="img/programate-academy.png" alt="Logo Programate">
+
 ![Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
 
 ## Descripción
@@ -10,7 +11,7 @@ Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que perm
 ## Funcionalidades
 
 - Obtener toda la informacion sobre el sistema de inventario
-- Obtener una prodctos por su ID
+- Obtener los productos por su ID
 - Crear nuevos datos
 - Actualizar datos existentes
 - Eliminar datos
