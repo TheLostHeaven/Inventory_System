@@ -1,17 +1,16 @@
 from sqlalchemy import Column,Integer,String,Float
-from config.database import Base
-from sqlalchemy.orm import relationship
 
+from config.database import Base
 
 class Product(Base):
     
-    __tablename__= "product"
+    __tablename__ = "product"
     
     id = Column(Integer,primary_key =True)
     name = Column(String)
     brand = Column(String)
     description = Column(String)
     price = Column(Float)
-    entry_date = Column(Integer)
-
-    #supplies = relationship("Supplies", back_populates="product", foreign_keys='Supplies.product_id')
+    entry_date = Column(String)
+    availability = Column(String)
+    available_quantity = Column(Integer)
