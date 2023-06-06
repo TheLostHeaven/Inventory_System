@@ -15,8 +15,8 @@ class Supplier (BaseModel):
             "example":{
                 "id":1,
                 "sub_name":"Distribuidor gerenrico",
-                "address":"cualquiera",
-                "phone":3158000000,
+                "address":"Calle generica",
+                "phone":12345678,
                 "email":"example@gmail.com"            
             }
         }
